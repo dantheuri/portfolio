@@ -1,6 +1,6 @@
 const Header = () => {
   return (
-    <header className="lg:w-[70rem] px-4 sm:px-0">
+    <header className="w-full max-w-[70rem] px-4 sm:px-0">
       <section className="hero">
         <h1 className="font-bold text-2xl lg:text-[2em] tracking-[-.44px]">
           danieltheuri
@@ -22,7 +22,7 @@ const Header = () => {
               Hey! I'm Daniel 👋 — a developer who loves turning ideas into
               slick, responsive web experiences. From frontend to backend, I
               enjoy solving tricky problems 🧩, learning new tools 🛠️, and
-              building things people actually enjoy using. Every project’s a
+              building things people actually enjoy using. Every project's a
               chance to grow — and have some fun 🎉.
             </p>
             <div className="mt-6 lg:mt-8 text-center">

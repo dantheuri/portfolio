@@ -1,6 +1,6 @@
 const Resume = () => {
   return (
-    <section className="resume lg:w-[70rem] px-3">
+    <section className="resume w-full max-w-[70rem] px-3">
       <div className="flex items-center justify-between">
         <h1 className="font-bold text-[2.5em] lg:text-[5.5em] tracking-[-2.5px]">
           Resume
@@ -18,10 +18,8 @@ const Resume = () => {
           <h2 className="font-bold text-2xl text-[#4EE1A0] mb-4">
             Contact Information
           </h2>
-          <div className="text-white space-y-1 text-sm lg:text-base">
-            <p>
-              📧 daniel.m.theuri@gmail.com
-            </p>
+          <div className="text-[#D9D9D9] space-y-1 text-sm lg:text-base">
+            <p>📧 daniel.m.theuri@gmail.com</p>
             <p>📱 +254 769 666 212</p>
             <p>
               🔗{" "}
@@ -50,20 +48,20 @@ const Resume = () => {
 
         {/* Education Section */}
         <div>
-          <h2 className=" font-bold text-2xl text-[#4EE1A0] mb-6">Education</h2>
+          <h2 className="font-bold text-2xl text-[#4EE1A0] mb-6">Education</h2>
           <div className="border-l-4 border-[#4EE1A0] pl-6">
             <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-2">
               <h3 className="font-bold text-xl">
                 Bachelor of Science in Applied Computer Technology
               </h3>
-              <span className="text-white text-sm lg:text-base">
+              <span className="text-[#D9D9D9] text-sm lg:text-base">
                 Nairobi, Kenya
               </span>
             </div>
             <p className="text-[#4EE1A0] font-medium mb-2">
               United States International University - Africa
             </p>
-            <p className="text-white text-sm lg:text-base">
+            <p className="text-[#D9D9D9] text-sm lg:text-base">
               Concentration: Software Engineering
             </p>
           </div>
@@ -80,64 +78,27 @@ const Resume = () => {
                 <h3 className="font-bold text-xl">
                   Junior Fullstack Software Engineer
                 </h3>
-                <span className="text-white text-sm lg:text-base">
+                <span className="text-[#D9D9D9] text-sm lg:text-base">
                   Oct 2024 - Jun 2025
                 </span>
               </div>
               <p className="text-[#4EE1A0] font-medium mb-2">
                 Siman Center S Corps • Minneapolis, Minnesota (Remote)
               </p>
-              <ul className="text-white space-y-2 text-sm lg:text-base">
+              <ul className="text-[#D9D9D9] space-y-2 text-sm lg:text-base">
                 <li>
-                  • Developed and maintained client websites, ensuring
-                  responsive design and functionality tailored to business
-                  needs.
+                  • Led the redesign and development of the company website,
+                  enhancing its visual appeal and functionality
                 </li>
                 <li>
-                  • Contributed to the creation of an in-house Learning
-                  Management System (LMS) designed to support dislocated workers
-                  and individuals from underrepresented backgrounds.
+                  • Managed the day-to-day operations of a system called
+                  P-Smart, handling user sign-ups, fuel orders, and bid
+                  management
                 </li>
                 <li>
-                  • Implemented and refined features within the LMS to deliver
-                  tech-focused courses aimed at preparing learners for
-                  certifications such as AWS Cloud Practitioner and Cisco CCNA.
-                </li>
-              </ul>
-            </div>
-
-            <div className="border-l-4 border-[#4EE1A0] pl-6">
-              <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-2">
-                <h3 className="font-bold text-xl">Frontend Engineer</h3>
-                <span className="text-white text-sm lg:text-base">
-                  Jan 2024 - Oct 2024
-                </span>
-              </div>
-              <p className="text-[#4EE1A0] font-bold mb-2">
-                Liquid Hack Group • Nairobi, Kenya
-              </p>
-              <ul className="text-white space-y-2 text-sm lg:text-base">
-                <li>
-                  • Led the redesign of the company website using Next.js and
-                  Tailwind CSS, updating the layout, navigation, and styling to
-                  create a cleaner and more modern interface.
-                </li>
-                <li>
-                  • Built the frontend of an e-commerce platform for women’s
-                  beauty products using React.js and Tailwind CSS, translating
-                  UI designs into interactive, responsive components and
-                  integrating key user-facing features such as product listings,
-                  filtering, and cart functionality.
-                </li>
-                <li>
-                  • Coordinated closely with the backend team to integrate
-                  RESTful APIs, manage frontend data flow, and ensure seamless
-                  user interactions.
-                </li>
-                <li>
-                  • Handled client-side state using TanStack Query for server
-                  state and Zustand for local state management, enabling
-                  efficient data fetching, caching, and UI responsiveness.
+                  • Identified and addressed areas for improvement in the
+                  P-Smart System by actively seeking ways to enhance its
+                  functionality
                 </li>
               </ul>
             </div>
@@ -145,14 +106,40 @@ const Resume = () => {
             <div className="border-l-4 border-[#4EE1A0] pl-6">
               <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-2">
                 <h3 className="font-bold text-xl">IT Intern</h3>
-                <span className="text-white text-sm lg:text-base">
+                <span className="text-[#D9D9D9] text-sm lg:text-base">
+                  Jan 2024 - Oct 2024
+                </span>
+              </div>
+              <p className="text-[#4EE1A0] font-medium mb-2">
+                Liquid Hack Group • Nairobi, Kenya
+              </p>
+              <ul className="text-[#D9D9D9] space-y-2 text-sm lg:text-base">
+                <li>
+                  • Implemented web designs by skillfully translating design
+                  concepts into functional and visually appealing web interfaces
+                </li>
+                <li>
+                  • Used HTML, CSS, and JavaScript to ensure cross-browser
+                  compatibility and mobile responsiveness
+                </li>
+                <li>
+                  • Collaborated with design teams to create seamless user
+                  experiences
+                </li>
+              </ul>
+            </div>
+
+            <div className="border-l-4 border-[#4EE1A0] pl-6">
+              <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-2">
+                <h3 className="font-bold text-xl">IT Intern</h3>
+                <span className="text-[#D9D9D9] text-sm lg:text-base">
                   Sep 2023 - Dec 2023
                 </span>
               </div>
               <p className="text-[#4EE1A0] font-medium mb-2">
                 Petroleum Outlets Associations of Kenya • Nairobi, Kenya
               </p>
-              <ul className="text-white space-y-2 text-sm lg:text-base">
+              <ul className="text-[#D9D9D9] space-y-2 text-sm lg:text-base">
                 <li>
                   • Led the redesign and development of the company website,
                   enhancing its visual appeal and functionality
@@ -174,14 +161,14 @@ const Resume = () => {
                 <h3 className="font-bold text-xl">
                   System Administrator Intern
                 </h3>
-                <span className="text-white text-sm lg:text-base">
+                <span className="text-[#D9D9D9] text-sm lg:text-base">
                   Aug 2022 - Sep 2022
                 </span>
               </div>
               <p className="text-[#4EE1A0] font-medium mb-2">
                 CURE International • Kijabe, Kenya
               </p>
-              <ul className="text-white space-y-2 text-sm lg:text-base">
+              <ul className="text-[#D9D9D9] space-y-2 text-sm lg:text-base">
                 <li>
                   • Provided timely and effective technical support to staff,
                   resolving 90% of computer related issues within a 24-hour
@@ -205,10 +192,10 @@ const Resume = () => {
           <h2 className="font-bold text-2xl text-[#4EE1A0] mb-6">
             Technical Skills
           </h2>
-          <div className="group grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            <div className="">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div>
               <h3 className="font-bold text-lg mb-3">Programming Languages</h3>
-              <ul className="text-[#D9D9D9] group-hover:text-white  space-y-1">
+              <ul className="text-[#D9D9D9] space-y-1 text-sm">
                 <li>• HTML/CSS & JavaScript</li>
                 <li>• Linux</li>
                 <li>• Git/GitHub/GitHub Actions</li>
@@ -216,7 +203,7 @@ const Resume = () => {
             </div>
             <div>
               <h3 className="font-bold text-lg mb-3">Frameworks & Libraries</h3>
-              <ul className="text-[#D9D9D9] group-hover:text-white space-y-1">
+              <ul className="text-[#D9D9D9] space-y-1 text-sm">
                 <li>• ReactJS</li>
                 <li>• NodeJS (ExpressJS)</li>
                 <li>• Bootstrap/Tailwind</li>
@@ -225,7 +212,7 @@ const Resume = () => {
             </div>
             <div>
               <h3 className="font-bold text-lg mb-3">Databases & Platforms</h3>
-              <ul className="text-[#D9D9D9] group-hover:text-white space-y-1">
+              <ul className="text-[#D9D9D9] space-y-1 text-sm">
                 <li>• MySQL</li>
                 <li>• MongoDB</li>
                 <li>• Firebase Platform</li>
@@ -239,11 +226,11 @@ const Resume = () => {
         <div>
           <h2 className="font-bold text-2xl text-[#4EE1A0] mb-6">Projects</h2>
           <div className="space-y-6">
-            <div className="group border-l-4 border-[#4EE1A0] pl-6">
+            <div className="border-l-4 border-[#4EE1A0] pl-6">
               <h3 className="font-bold text-lg mb-2">
                 Clinic Management System
               </h3>
-              <p className="text-[#D9D9D9] group-hover:text-white text-sm lg:text-base">
+              <p className="text-[#D9D9D9] text-sm lg:text-base">
                 A web application employing Handlebars templating engine,
                 Bootstrap, and Node.js, designed to empower small clinics in
                 efficiently managing patient information. Receptionists can log
@@ -252,20 +239,20 @@ const Resume = () => {
                 workflows.
               </p>
             </div>
-            <div className="group border-l-4 border-[#4EE1A0] pl-6">
+            <div className="border-l-4 border-[#4EE1A0] pl-6">
               <h3 className="font-bold text-lg mb-2">
                 Employee Management System
               </h3>
-              <p className="text-[#D9D9D9] group-hover:text-white text-sm lg:text-base">
+              <p className="text-[#D9D9D9] text-sm lg:text-base">
                 Created a web application built using Node.js, Bootstrap, and
                 React.js, which serves as a valuable tool for empowering
                 employers in small-scale organizations to streamline the
                 management of employee information, roles, and statuses.
               </p>
             </div>
-            <div className="group border-l-4 border-[#4EE1A0] pl-6">
+            <div className="border-l-4 border-[#4EE1A0] pl-6">
               <h3 className="font-bold text-lg mb-2">Job Portal</h3>
-              <p className="text-[#D9D9D9] group-hover:text-white text-sm lg:text-base">
+              <p className="text-[#D9D9D9] text-sm lg:text-base">
                 Developed a web application which provides universities with a
                 dedicated platform where employers can post tailored job
                 opportunities designed to specifically benefit university
@@ -280,25 +267,18 @@ const Resume = () => {
         <div>
           <h2 className="font-bold text-2xl text-[#4EE1A0] mb-6">References</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="group border-l-4 border-[#4EE1A0] pl-6">
-              <h3 className="font-bold text-lg">Yuri Zambarakji</h3>
-              <p className="text-[#4EE1A0] font-medium text-sm">Manager</p>
-              <p className="text-[#D9D9D9] group-hover:text-white text-sm">
-                Siman Center S Corps
-              </p>
-              <p className="text-[#D9D9D9] group-hover:text-white text-sm">
-                yurizambarakji@gmail.com
-              </p>
-            </div>
-            <div className="group border-l-4 border-[#4EE1A0] pl-6">
+            <div className="border-l-4 border-[#4EE1A0] pl-6">
               <h3 className="font-bold text-lg">Professor Austin Sifuna</h3>
               <p className="text-[#4EE1A0] font-medium text-sm">Lecturer</p>
-              <p className="text-[#D9D9D9] group-hover:text-white text-sm">
+              <p className="text-[#D9D9D9] text-sm">
                 United States International University - Africa
               </p>
-              <p className="text-[#D9D9D9] group-hover:text-white text-sm">
-                asifuna@usiu.ac.ke
-              </p>
+              <p className="text-[#D9D9D9] text-sm">asifuna@usiu.ac.ke</p>
+            </div>
+            <div className="border-l-4 border-[#4EE1A0] pl-6">
+              <h3 className="font-bold text-lg">Yuri Zambarakji</h3>
+              <p className="text-[#4EE1A0] font-medium text-sm">Manager</p>
+              <p className="text-[#D9D9D9] text-sm">Siman Center S Corps</p>
             </div>
           </div>
         </div>

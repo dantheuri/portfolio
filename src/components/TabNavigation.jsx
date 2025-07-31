@@ -6,7 +6,7 @@ const TabNavigation = () => {
   const [activeTab, setActiveTab] = useState("projects");
 
   return (
-    <div className="lg:w-[70rem] px-3">
+    <div className="w-full max-w-[70rem] px-3">
       {/* Tab Navigation */}
       <div className="flex justify-center mb-12">
         <div className="flex bg-[#242424] rounded-lg p-1">

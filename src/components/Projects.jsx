@@ -3,7 +3,7 @@ import Project2Large from "../assets/images/ultimate-tech-book-club.png";
 
 const Projects = () => {
   return (
-    <section className="projects lg:w-[70rem] px-3">
+    <section className="projects w-full max-w-[70rem] px-3">
       <div className="flex items-center justify-between">
         <h1 className="font-bold text-[2.5em] lg:text-[5.5em] tracking-[-2.5px]">
           Projects
@@ -19,7 +19,7 @@ const Projects = () => {
           <img
             src={Project1Large}
             alt="Design Portfolio Image"
-            className="w-full lg:max-w-[33.75rem] lg:max-h-77 rounded-md"
+            className="w-full h-auto max-w-full rounded-md"
           />
           <h3 className="font-bold text-2xl/8 uppercase mt-5">
             Modern Art Gallery
@@ -52,7 +52,7 @@ const Projects = () => {
           <img
             src={Project2Large}
             alt="Design Portfolio Image"
-            className="lg:max-w-[33.75rem] lg:max-h-77 rounded-md"
+            className="w-full h-auto max-w-full rounded-md"
           />
           <h3 className="font-bold text-2xl/8 uppercase mt-5">
             Ultimate Tech Book Club

@@ -3,7 +3,7 @@ import LinkedinIcon from "./LinkedInIcon";
 
 const Footer = () => {
   return (
-    <footer className="skills flex flex-col lg:flex-row gap-4 items-center lg:justify-between border-t-2 border-white lg:w-[70rem] py-10">
+    <footer className="skills flex flex-col lg:flex-row gap-4 items-center lg:justify-between border-t-2 border-white w-full max-w-[70rem] py-10">
       <h1 className="font-bold text-[2em] tracking-[-.44px]">dantheuri</h1>
       <div className="flex gap-8">
         <a href="https://github.com/dantheuri">
