@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "SpaceGrotesk";
+  src: url("./assets/fonts/SpaceGrotesk-VariableFont_wght.ttf")
+    format("truetype");
+  font-weight: 100 900;
+  font-style: "Normal";
+  font-display: swap;
+}
+
+@theme {
+  --font-space: "SpaceGrotesk";
+}
+
+/* Smooth scrolling behavior */
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 2rem;
+}
+
+/* Custom scroll duration for smoother transitions */
+@media (prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
