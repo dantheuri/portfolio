@@ -161,8 +161,9 @@ const Resume = () => {
               </p>
               <ul className="text-[#D9D9D9] space-y-2 text-sm lg:text-base">
                 <li>
-                  • Led the redesign and development of the company website,
-                  enhancing its visual appeal and functionality
+                  • Led the redesign and development of the company website
+                  using WordPress, enhancing its visual appeal, responsiveness,
+                  and overall functionality.
                 </li>
                 <li>
                   • Managed the day-to-day operations of P-Smart system,
