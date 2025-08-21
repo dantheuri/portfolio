@@ -111,7 +111,7 @@ const Resume = () => {
 
             <div className="border-l-4 border-[#4EE1A0] pl-6">
               <div className="flex flex-col lg:flex-row lg:justify-between lg:items-start mb-2">
-                <h3 className="font-bold text-xl">IT Intern</h3>
+                <h3 className="font-bold text-xl">Frontend Developer</h3>
                 <span className="text-[#D9D9D9] text-sm lg:text-base">
                   Jan 2024 - Oct 2024
                 </span>
@@ -121,16 +121,30 @@ const Resume = () => {
               </p>
               <ul className="text-[#D9D9D9] space-y-2 text-sm lg:text-base">
                 <li>
-                  • Implemented web designs by skillfully translating design
-                  concepts into functional and visually appealing web interfaces
+                  • Led the redesign of the company website using Next.js and
+                  Tailwind CSS, updating the layout, navigation, and styling to
+                  create a cleaner and more modern interface.
                 </li>
                 <li>
-                  • Used HTML, CSS, and JavaScript to ensure cross-browser
-                  compatibility and mobile responsiveness
+                  • Collaborated closely with the design team by translating
+                  Figma mockups into responsive, production-ready interfaces.
                 </li>
                 <li>
-                  • Collaborated with design teams to create seamless user
-                  experiences
+                  • Built the frontend of an e-commerce platform for women's
+                  beauty products using React.js and Tailwind CSS, translating
+                  UI designs into interactive, responsive components and
+                  integrating key user-facing features such as product listings,
+                  filtering, and cart functionality.
+                </li>
+                <li>
+                  • Coordinated closely with the backend team to integrate
+                  RESTful APIs, manage frontend data flow, and ensure seamless
+                  user interactions.
+                </li>
+                <li>
+                  • Handled client-side state using TanStack Query for server
+                  state and Zustand for local state management, enabling
+                  efficient data fetching, caching, and UI responsiveness.
                 </li>
               </ul>
             </div>
